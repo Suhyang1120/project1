@@ -156,11 +156,11 @@ a.close{
 .cal>dl>p{color: #c8c8c8; font-size: 1.2rem; padding-top: 5px; font-weight: bold}
 .data_box>dl>dd>ul>li:nth-child(1){font-size: 1.9rem; font-weight: bold; color: #fff}
 .cal>dl>dd>ul>li:nth-child(1)>span{font-size: 1.4rem}
-.btn_sale{width: 65px; height: 23px; font-size: 1.3rem; color: #fff; border-radius: 50px; border: 1px solid #fff; margin: 8px auto}
+.btn_sale{width: 65px; height: 23px; font-size: 1.3rem; color: #fff; border-radius: 50px; border: 1px solid #fff; margin: 8px auto;  cursor: pointer}
 .cal:after{display: block; content: ""; clear: both}
 .plus{position: absolute; top: 40%; left: 32%}
 .same{position: absolute; top: 40%; right: 33%}
-.cal_btn{width: 20%; height: 130px; background-color: #3dadd5; float: right; border-radius: 0 8px 8px 0; position: relative; color: #fff; font-weight: bold; line-height: 130px; font-size: 1.8rem}
+.cal_btn{width: 20%; height: 130px; background-color: #3dadd5; float: right; border-radius: 0 8px 8px 0; position: relative; color: #fff; font-weight: bold; line-height: 130px; font-size: 1.8rem; cursor: pointer}
 
 /* 서비스 세트 */
 .ser_set{width: 100%; height: 340px; margin-top: 160px; color: #fff; background-image: url(../img/b2_img.jpg); background-position: -320px center; background-size: cover}
@@ -177,6 +177,9 @@ a.close{
 .s_icon img{transition: 0.4s}
 
 /* 스마트 */
+.one1{color: #fff; text-align: center; padding-top: 5%}
+
+
 .smart{width: 100%; height: 850px ;background-image: url(../img/b3_img.jpg); background-size: cover; background-position: center center}
 .smart>h1{font-family: NotoSansCJKkr-bold;color: #fff; text-align: center; padding-top:110px ;padding-bottom: 30px;font-size: 3.6rem}
 .list_sm{width: 1280px; height: 680px; position: relative; color: #fff; margin: 0 auto; position: relative}
@@ -206,7 +209,9 @@ a.close{
 .p_icon>li:nth-child(3)>p{margin-left: -8px}
 .p_icon>li>i{height: 44px}
 
-.p_icon>li>i:hover>img{transform: rotateY(180deg); transition: all 0.2s}
+.p_icon>li:nth-child(1)>i:hover>img{transform: rotate(180deg); transition: all 0.5s}
+.p_icon>li:nth-child(3)>i:hover>img{transform: rotate(-180deg); transition: all 0.5s}
+.p_icon>li>i:hover>img{transform: rotateY(180deg); transition: all 0.5s}
 .special img{transition: all 0.2s}
 .special>ul>li:hover>.trans{color:lightskyblue; transition: all 0.5s}
 .trans{transition: all 0.5s}
@@ -326,6 +331,7 @@ a.close{
 /* 메인페이지 */
 /* 태블릿 */
 @media (max-width: 1279px){
+    .one1{display: none}
     .body{overflow: hidden}
     /* 헤더 */
     .inner{width: 100%}
