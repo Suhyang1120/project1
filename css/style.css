@@ -331,7 +331,6 @@ a.close{
 /* 메인페이지 */
 /* 태블릿 */
 @media (max-width: 1279px){
-    .one1{display: }
     .body{overflow: hidden}
     /* 헤더 */
     .inner{width: 100%}
